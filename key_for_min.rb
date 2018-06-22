@@ -6,4 +6,8 @@ def key_for_min_value(name_hash)
 
   name_hash.select {|k,v| v < first.last}
 
+  first = name_hash.first
+
+  name_hash.select {|k,v| v < first.last}
+
 end
