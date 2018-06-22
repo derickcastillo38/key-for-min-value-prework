@@ -7,5 +7,5 @@ def key_for_min_value(name_hash)
   name_hash[1..-1].each do |k,v|
     return k if v > first[1]
   end
-  
+
 end
