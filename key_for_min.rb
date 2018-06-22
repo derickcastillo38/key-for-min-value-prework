@@ -6,7 +6,7 @@ def key_for_min_value(name_hash)
   first = arrayed.first
   i = 1
   while i < name_hash.size
-    first  = arrayed[i] if arrayed[i][1] > first[1]
+    first  = arrayed[i] if arrayed[i][1] < first[1]
     i += 1
   end
   first[0]
